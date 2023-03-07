@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text>
+    HELLO I AM A MOBILE DEVELOPER
+  </Text>
+  <Text>
+    Realtime refresh
+  </Text>
+  <Text
+    style={
+      {
+        "color": "white",
+        "fontSize": 100,
+      }
+    }
+  >
+    FOOD FACE
+  </Text>
+  <View>
+    <Text>
+      I am a test component
+    </Text>
+    <Text />
+    <Text>
+      test
+    </Text>
+    <Text>
+      10
+    </Text>
+  </View>
+</View>
+`;

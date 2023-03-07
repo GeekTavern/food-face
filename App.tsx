@@ -1,28 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { TestComponent } from './testFile';
+import { FoodRandomiser } from "./features/Home/FoodRandomiser";
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>HELLO I AM A MOBILE DEVELOPER</Text>
-      <Text>Realtime refresh</Text>
-      <Text style={styles.foodFace}>FOOD FACE</Text>
-      <TestComponent></TestComponent>
-      <StatusBar style='auto' />
-    </View>
+    FoodRandomiser()
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'red',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  foodFace: {
-    fontSize: 100,
-    color: 'white',
-  },
-});
+
